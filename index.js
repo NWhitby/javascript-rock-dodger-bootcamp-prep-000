@@ -8,7 +8,7 @@ const ROCKS = []
 const START = document.getElementById('start')
 DODGER.style.backgroundColor = "#FF69B4"
 
-let gameInterval = null
+var gameInterval = null
 
 function checkCollision(rock) {
   const top = positionToInteger(rock.style.top)
